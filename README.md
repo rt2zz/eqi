@@ -139,6 +139,12 @@ request.reply //equipt reply object
 request.pre //remand chain results are stored on this object
 ```
 
+###Services
+Services are basically shared methods or values.  Eqi will throw an error if you try to register the same service name on two seperate plugins.
+```js
+plugin.service('myModel', Model)
+```
+
 ##Goals
 Configuration oriented
 Extensible, composable servers
