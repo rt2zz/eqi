@@ -1,9 +1,8 @@
 var Remander = require('remander')
 
-module.exports.createServer = createServer
+module.exports.createServer = function(){
+  var server = new Remander()
 
-function createServer(){
-  var server = Remander.createServer()
   //Add Router
   server.extend(require('./router.js'))
   return server
