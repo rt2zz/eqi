@@ -8,7 +8,8 @@
     "lodash": "~2.4.0",
     "routes": "~1.1.0",
     "eqrouter": "rt2zz/eqrouter",
-    "remander": "git://github.com/rt2zz/remander"
+    "remander": "git://github.com/rt2zz/remander",
+    "eqrouter": "git://github.com/rt2zz/eqrouter"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

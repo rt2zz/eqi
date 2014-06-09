@@ -4,6 +4,6 @@ module.exports.createServer = function(){
   var server = new Remander()
 
   //Add Router
-  server.extend(require('./router.js'))
+  server.extend(require('eqrouter'))
   return server
 }
